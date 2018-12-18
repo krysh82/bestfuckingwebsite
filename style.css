@@ -1,0 +1,98 @@
+/*style of BestMothefucking Website*/
+
+body {
+	line-height: 1.4;
+	font-size: 18px;
+	color: #444;
+	max-width: 800px;
+	margin: auto;
+	font-family: "Open Sans", Arial;
+	text-align: justify;
+}
+
+.wr {
+	color: #c0392b;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.mfw {
+	color: #730000;
+}
+
+small {
+	font-size: .4em;
+}
+
+/*changement couleur du mot*/
+
+.colored {
+
+}
+
+/*couleur et cursor disabled*/
+.bleu {
+	color: #00e;
+	cursor: not-allowed;
+}
+
+.violet {
+	color: #551a8b;
+	cursor: not-allowed;
+}
+
+/*div of pics*/
+.somepics {
+	display: block;
+}
+
+div.somepics:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.catpic {
+	float: left;
+	width: 40%;
+}
+
+.caption {
+	font-size: 0.7em;
+}
+
+.leftbox {
+	width: 55%;
+	float: left;
+	padding-left: 10px;
+}
+
+div.somepics div.catpic img {
+	width: 100%;
+}
+
+div.somepics div.leftbox p:first-child {
+	margin-top: 0;
+}
+
+a {
+	color: #07a;
+}
+/*color for visited link*/
+a:visited {
+	color: #941352;
+}
+
+.visited {
+	color: #941352;
+}
+
+.v_maroon {
+	color: #85144b;
+}
+
+.citneed {
+	vertical-align: top;
+	font-size: .7em;
+	padding-left: .3em;
+}
